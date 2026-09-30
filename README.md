@@ -1,20 +1,22 @@
-# Caraousel Engine — Editorial AI Content Studio
+# Caraousel Engine — Functional MVP
 
-Standalone visual MVP for the Caraousel Engine concept.
+This build fixes the interaction layer of the previous prototype.
 
-## Current build
-- Five daily AI-content concepts
-- Editorial content director workflow
-- Conversational modification UI
-- Art-direction selector UI
-- Visual slide compositions (cover, dark editorial, acid statement, diagram)
-- Slide thumbnails and live canvas
-- Instagram Post 1080×1350 (4:5)
-- Reel/Short 1080×1920 (9:16)
-- Square 1080×1080 (1:1)
-- Landscape 1920×1080 (16:9)
-- Brand handles: @ashokkumar.ai and @ashokchandravamshi
-- Standalone HTML export
+## Working features
+- Daily radar topic selection
+- Carousel generation and slide navigation
+- Chat-style content modification
+- Telugu-English / beginner / hook / example / visual-direction edits
+- Art direction switching
+- Palette switching
+- Typography switching
+- Branding toggle
+- Instagram Post 1080x1350, Reel/Short 1080x1920, Square 1080x1080, Landscape 1920x1080
+- Sidebar navigation
+- Refresh radar
+- HTML export
 
-## Next production layer
-Connect live research/source verification, LLM generation, image generation, PNG/JPEG export, persistence, authentication, and publishing integrations.
+## Important
+This is a browser-only MVP. The chat assistant currently performs local editorial transformations; it does not call a remote LLM API. A production version needs an API/backend connection for live research and unrestricted AI generation.
+
+Open `index.html` in a modern browser.
