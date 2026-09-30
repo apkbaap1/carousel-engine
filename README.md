@@ -1,22 +1,37 @@
-# Caraousel Engine — Functional MVP
+# AI Carousel Engine v4
 
-This build fixes the interaction layer of the previous prototype.
+A domain-neutral AI content engine inspired by the uploaded carousel reference architecture.
 
-## Working features
-- Daily radar topic selection
-- Carousel generation and slide navigation
-- Chat-style content modification
-- Telugu-English / beginner / hook / example / visual-direction edits
-- Art direction switching
-- Palette switching
-- Typography switching
-- Branding toggle
-- Instagram Post 1080x1350, Reel/Short 1080x1920, Square 1080x1080, Landscape 1920x1080
-- Sidebar navigation
-- Refresh radar
-- HTML export
+## What is included
+
+- Daily Radar for 5 AI content opportunities
+- Live AI/web research endpoint
+- Live AI carousel generation
+- AI idea rewriting
+- Instagram 4:5, 1:1, 9:16 and 16:9 output formats
+- Editable carousel studio
+- Visual and motion directions
+- Archive in browser storage
+- Course Builder
+- Web article/caption/hashtag generation
+- PNG/ZIP export
+- Server-side API key handling
+
+## Run locally
+
+1. Install Node.js 20+.
+2. Copy `.env.example` to `.env`.
+3. Put your model API key in `.env`.
+4. Run:
+   `npm install`
+   `npm start`
+5. Open:
+   `http://localhost:8787`
+
+The browser never contains the API key.
 
 ## Important
-This is a browser-only MVP. The chat assistant currently performs local editorial transformations; it does not call a remote LLM API. A production version needs an API/backend connection for live research and unrestricted AI generation.
 
-Open `index.html` in a modern browser.
+This package is a working full-stack starter, not a hosted SaaS deployment. The live research and generation require a configured API key and internet access from the server.
+
+The uploaded reference file was used as a functional inspiration for the workflow: carousel creation, archive, course compilation, web content, sketches/visual prompts and motion concepts. Its CINMAA/filmmaking identity was intentionally removed.
